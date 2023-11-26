@@ -1,0 +1,12 @@
+{
+    "name": "gestionnaire_de_note",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT",
+    "dependencies": {
+        "electron": "^26.2.0"
+    },
+    "scripts": {
+        "start": "electron ."
+    }
+}

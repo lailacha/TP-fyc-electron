@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Editeur de Code</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body style="user-select: none; -webkit-app-region:  drag;">
+    <div class="container">
+      <div class="toolbar">
+        <button id="open-file-button" style="-webkit-app-region: no-drag;">Ouvrir</button>
+        <button id="save-file-button">Enregistrer</button>
+      </div>
+      <div class="editor">
+        <textarea id="code-editor"></textarea>
+      </div>
+    </div>
+
+    <script src="renderer.js"></script>
+  </body>
+</html>

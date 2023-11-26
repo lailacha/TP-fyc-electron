@@ -1,0 +1,17 @@
+{
+  "name": "FYC-ElectronJS",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^26.2.0"
+  },
+  "scripts": {
+    "start": "electron .",
+    "watch": "nodemon electron ."
+  },
+  "dependencies": {
+    "electron-window-state": "^5.0.3",
+    "nodemon": "^3.0.1"
+  }
+}
